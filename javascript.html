@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .container { */
+        /* background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+          
+            height: 800px;
+            justify-content: start;
+            align-items: center;
+            align-content: center; */
+        /* } --> */
+
+        /* .box { */
+        /* width: 200px;
+            height: 200px; */
+        /* border: 2px solid red;
+            margin: 2px;
+            padding: 2px;
+        }  */
+
+        /* #box1 {
+            background-color: aqua; */
+        /* order: 500;
+            flex-shrink: 4;
+            flex-grow: 1; */
+        /* align-self: end;
+        } --> */
+
+        /* 
+        #box2 {
+            background-color: blue;
+            flex-grow: 1;
+
+        } --> */
+
+        /* 
+        <!-- #box3 {
+            background-color: orange;
+            flex-grow: 1;
+        }
+
+        #box4 {
+            background-color: brown; */
+        /* flex-grow: 1; */
+        /* flex-basis: 400px;
+        } --> */
+
+
+
+        /* .box{
+            height: 400px;
+            width: 400px;
+            background-color: aqua;
+            border: 3px solid black;
+        } */
+
+
+        /* 
+        @media (min-width: 300px) and (max-width: 500px) {
+            .box{
+                background-color: green;
+            }
+            
+        } */
+
+
+
+        .container {
+            background-color: beige;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+        }
+
+
+
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            margin: 2px;
+            padding: 2px;
+        }
+
+        #box1 {
+            background-color: aqua;
+        }
+
+
+        #box2 {
+            background-color: blue;
+        }
+
+
+        #box3 {
+            background-color: orange;
+        }
+
+
+        #box4 {
+            background-color: red;
+        }
+        @media (min-width: 640px) {
+            .container{
+                flex-direction: row;
+            }
+            
+        }
+
+        @media (max-width: 640px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+
+<!-- <body>
+    <h1>Best js course</h1>
+    <p>Understanding the dom tree structure</p>
+
+    <hr />
+    <p>Its easy help js to coummnicate with</p> -->
+<!-- 
+<div class="box">
+    Helllo
+</div> -->
+
+
+
+
+<div class="container">
+    <div clasos="box" id="box1">box1</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box3">box3</div>
+    <div class="box" id="box4">box4</div>
+</div>
+
+<!-- <script>
+
+
+        let parent = document;
+        let bodyElement = document.body;
+        let headElement = document.head;
+
+        let bodyChild = bodyElement.childNodes;
+        console.log(bodyChild);
+    </script> -->
+</body>
+
+</html>
